@@ -76,9 +76,13 @@ Stop the server with `Ctrl+C`. Python is only a convenience for serving the file
 
 ## GitHub Pages
 
-This project can be served directly from the repository root without a build process. In **Settings → Pages**, choose **Deploy from a branch**, select **main** and **/ (root)**, and save. GitHub displays the live URL when the deployment is ready.
+The project is already deployed and publicly accessible via GitHub Pages.
 
-All stylesheet, image, and font references use relative paths, so the site also works under a GitHub Pages project subpath.
+**Live website:** https://freakperry.github.io/ono-tebe-nado/
+
+The website is deployed directly from the `main` branch using the repository root (`/`), without requiring a build process.
+
+All stylesheet, image, and font references use relative paths, ensuring the website works correctly under the GitHub Pages project subpath.
 
 ## Verification
 
