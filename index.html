@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Оно тебе надо — аукцион вещей, в которые никто не верил." />
+    <title>Оно тебе надо — аукцион вещей</title>
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body id="home">
+    <header class="header">
+      <nav class="header__nav" aria-label="Основная навигация">
+        <ul class="header__menu">
+          <li><a class="current" href="#home" aria-current="page">главная</a></li>
+          <li>
+            <img class="menu-marker" src="assets/imgListMarker.svg" alt="" /><a
+              class="line-link"
+              href="#lots"
+              >посмотреть лоты<img class="link-line" src="assets/imgLine2.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <img class="menu-marker" src="assets/imgListMarker.svg" alt="" /><a
+              class="line-link"
+              href="#about"
+              >об аукционе<img class="link-line" src="assets/imgLine3.svg" alt=""
+            /></a>
+          </li>
+        </ul>
+      </nav>
+      <a class="header__logo" href="#home" aria-label="Оно тебе надо — главная"
+        ><img src="assets/logo.svg" alt="Оно тебе надо" width="148" height="105"
+      /></a>
+      <address class="contacts">
+        <a class="line-link" href="tel:+99995555555"
+          >+9 999 555 5555<img class="link-line" src="assets/imgLine4.svg" alt=""
+        /></a>
+        <a class="line-link" href="mailto:info@sobaka.ge"
+          >info@sobaka.ge<img class="link-line" src="assets/imgLine5.svg" alt=""
+        /></a>
+        <p>наб. Принсенграхт 263-<br />265, Амстердам</p>
+      </address>
+    </header>
+    <main>
+      <section class="cover" aria-labelledby="cover-title">
+        <img class="cover__image" src="assets/cover.png" alt="" fetchpriority="high" />
+        <h1 class="cover__title" id="cover-title" aria-label="Оно тебе надо">
+          <span class="cover__line cover__line--first"><span>о</span><span>но</span></span
+          ><span class="cover__line cover__line--middle"><span>те</span><span>бе</span></span
+          ><span class="cover__line cover__line--last"><span>н</span><span>адо</span></span>
+        </h1>
+        <div class="cover__bottom">
+          <p class="cover__description">Аукцион вещей, в которые никто не верил</p>
+          <a class="cover__button" href="mailto:info@sobaka.ge?subject=Сделать%20ставку"
+            >Сделать ставку</a
+          >
+        </div>
+      </section>
+      <section class="lots" id="lots" aria-labelledby="lots-title">
+        <h2 id="lots-title">Лоты</h2>
+        <ul class="lots__list">
+          <li class="lot lot--film">
+            <img
+              class="lot__image"
+              src="assets/lot-film.png"
+              alt="Кадр из фильма Пола Томаса Андерсона"
+              loading="lazy"
+            />
+            <article class="lot__content">
+              <h3>Фильм режиссёра, который бросил киношколу</h3>
+              <p>
+                Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не
+                знали, что режиссёр — Пол Томас Андерсон?
+              </p>
+            </article>
+          </li>
+          <li class="lot lot--book">
+            <img
+              class="lot__image"
+              src="assets/lot-book.png"
+              alt="Обложка романа «Улисс» Джеймса Джойса"
+              loading="lazy"
+            />
+            <article class="lot__content">
+              <h3>Книга, где описан один скучный день из жизни рекламного агента</h3>
+              <p>
+                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
+                древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории
+                литературы, начиная с античных времён. И это всё накладывается на эпическую поэму
+                Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+              </p>
+            </article>
+          </li>
+          <li class="lot lot--painting">
+            <img
+              class="lot__image"
+              src="assets/lot-painting.png"
+              alt="Абстрактная картина Василия Кандинского"
+              loading="lazy"
+            />
+            <article class="lot__content">
+              <h3>Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+              <p>
+                Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
+                инфузорию-туфельку. Никаких полей, лесов, котиков<span class="ellipsis">...</span>
+                Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных
+                работ Кандинского?
+              </p>
+            </article>
+          </li>
+        </ul>
+        <a class="lots__more line-link" href="#about"
+          >посмотреть больше<img class="link-line" src="assets/imgLine6.svg" alt=""
+        /></a>
+      </section>
+      <section class="about" id="about" aria-labelledby="about-title">
+        <div class="about__logo">
+          <img
+            src="assets/about-logo.svg"
+            alt="Оно тебе надо"
+            width="240"
+            height="240"
+            loading="lazy"
+          />
+        </div>
+        <div class="about__column">
+          <h2 id="about-title">Об аукционе</h2>
+          <div class="about__description">
+            <p>
+              Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
+              Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен
+              дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому
+              нужны все эти странные вещи, созданные любителями?
+            </p>
+            <p>
+              Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах
+              растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто
+              неудачными. Но, несмотря<br class="desktop-break" />
+              на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно
+              представить современную культуру. Когда в эти вещи не верил никто, продолжали верить
+              их создатели. И сейчас эти лоты стали культовыми.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <address class="contacts">
+        <a class="line-link" href="tel:+99995555555"
+          >+9 999 555 5555<img class="link-line" src="assets/imgLine4.svg" alt=""
+        /></a>
+        <a class="line-link" href="mailto:info@sobaka.ge"
+          >info@sobaka.ge<img class="link-line" src="assets/imgLine5.svg" alt=""
+        /></a>
+        <p>наб. Принсенграхт 263-<br />265, Амстердам</p>
+      </address>
+      <nav class="footer__nav" aria-label="Навигация в подвале">
+        <ul>
+          <li><a class="current" href="#home">главная</a></li>
+          <li>
+            <a class="line-link" href="#lots"
+              >посмотреть лоты<img class="link-line" src="assets/imgLine7.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a class="line-link" href="#about"
+              >об аукционе<img class="link-line" src="assets/imgLine8.svg" alt=""
+            /></a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="socials" aria-label="Социальные сети">
+        <li>
+          <a href="https://www.youtube.com/" aria-label="YouTube"
+            ><img src="assets/youtube.svg" alt="" width="48" height="48" loading="lazy"
+          /></a>
+        </li>
+        <li>
+          <a href="https://vk.com/" aria-label="ВКонтакте"
+            ><img src="assets/vk.svg" alt="" width="48" height="48" loading="lazy"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.pinterest.com/" aria-label="Pinterest"
+            ><img src="assets/pinterest.svg" alt="" width="48" height="48" loading="lazy"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
