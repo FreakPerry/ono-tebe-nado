@@ -4,6 +4,9 @@ A responsive landing page for **«Оно тебе надо»** (roughly, “Do y
 
 The website content is in Russian; this documentation is in English.
 
+- **Live website:** https://freakperry.github.io/ono-tebe-nado/
+- **Repository:** https://github.com/FreakPerry/ono-tebe-nado
+
 ## Technologies
 
 - **HTML5** — semantic sections, navigation, articles, and contact information.
@@ -36,7 +39,12 @@ The navigation links jump to page sections. The bid button opens an email draft 
 
 ## Installation and local usage
 
-1. Clone this repository using its GitHub clone URL, or download and extract its ZIP archive.
+1. Clone this repository, or download and extract its ZIP archive:
+
+   ```sh
+   git clone https://github.com/FreakPerry/ono-tebe-nado.git
+   cd ono-tebe-nado
+   ```
 2. Open a terminal in the project directory.
 3. Start a local web server with Python 3:
 
@@ -58,8 +66,7 @@ Stop the server with `Ctrl+C`. Python is only a convenience for serving the file
 │   └── style.css          # Components and responsive layout
 ├── fonts/
 │   ├── fonts.css          # Local @font-face declarations
-│   ├── Raleway-*.woff2    # Font files
-│   └── OFL.txt            # Font license
+│   └── Raleway-*.woff2    # Font files
 ├── assets/                # Original images and SVG assets
 ├── docs/                  # Desktop and mobile screenshots
 ├── .gitignore
@@ -82,6 +89,4 @@ The local page was visually compared with the Figma reference. Browser checks at
 - [Figma design reference](https://www.figma.com/design/6WKU5qH1c2qiC1RaLHWpEC/?node-id=1-2).
 - Images and SVGs are supplied by the design.
 - The film image retains its original credit: courtesy of Metro Goldwyn Mayer Pictures Inc.; © 2021 Metro-Goldwyn-Mayer Pictures Inc. All rights reserved.
-- Raleway font files originate from the [Yandex Practicum starter project](https://github.com/yandex-praktikum/ono-tebe-nado/tree/main/fonts) and are distributed under the [SIL Open Font License](fonts/OFL.txt).
-
-The font license applies to the fonts. No additional license for the remaining code or design assets is granted by this repository.
+- Raleway font files originate from the [Yandex Practicum starter project](https://github.com/yandex-praktikum/ono-tebe-nado/tree/main/fonts). The required [SIL Open Font License](fonts/OFL.txt) accompanies the font files.
